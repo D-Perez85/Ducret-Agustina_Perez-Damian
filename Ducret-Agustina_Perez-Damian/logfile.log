@@ -1,0 +1,33 @@
+[2023-10-26 12:05:55] [ INFO ] [Main:7] Probando Logger
+[2023-10-26 22:15:51] [ ERROR] [OdontologoDaoH2:44] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-224]
+[2023-10-26 22:15:51] [ INFO ] [OdontologoDaoH2:49] Tuvimos un problema
+[2023-10-26 22:15:51] [ ERROR] [OdontologoDaoH2:50] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (NROMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-224]
+[2023-10-26 22:15:51] [ ERROR] [OdontologoDaoH2:86] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2023-10-26 22:21:12] [ INFO ] [OdontologoDaoH2:41] Se ha registrado el odontologo: Odontologo{id=3, nroMatricula=2547, nombre='Juana', apellido='Viale'}
+[2023-10-26 22:21:12] [ ERROR] [OdontologoDaoH2:86] Columna "nroMaticula" no encontrada
+Column "nroMaticula" not found [42122-224]
+[2023-10-26 22:22:16] [ ERROR] [OdontologoDaoH2:86] Columna "nroMaticula" no encontrada
+Column "nroMaticula" not found [42122-224]
+[2023-10-26 22:30:54] [ INFO ] [OdontologoDaoH2:41] Se ha registrado el odontologo: Odontologo{id=3, nroMatricula=2547, nombre='Juana', apellido='Viale'}
+[2023-10-26 22:32:10] [ ERROR] [OdontologoDaoH2:86] Columna "nroMaticula" no encontrada
+Column "nroMaticula" not found [42122-224]
+[2023-10-26 22:33:58] [ INFO ] [OdontologoDaoH2:82] Listado de todos los odontologos: [Odontologo{id=1, nroMatricula=98745, nombre='Agostina', apellido='Ducret'}, Odontologo{id=2, nroMatricula=11745, nombre='Damian', apellido='Perez'}]
+[2023-10-26 22:35:33] [ INFO ] [OdontologoDaoH2:41] Se ha registrado el odontologo: Odontologo{id=3, nroMatricula=2547, nombre='Juana', apellido='Viale'}
+[2023-10-26 22:35:34] [ INFO ] [OdontologoDaoH2:82] Listado de todos los odontologos: [Odontologo{id=1, nroMatricula=98745, nombre='Agostina', apellido='Ducret'}, Odontologo{id=2, nroMatricula=11745, nombre='Damian', apellido='Perez'}, Odontologo{id=3, nroMatricula=2547, nombre='Juana', apellido='Viale'}]
+[2023-10-26 22:37:33] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Odontologo{id=3, nroMatricula=2547, nombre='Juana', apellido='Viale'}
+[2023-10-26 22:37:33] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Odontologo{id=1, nroMatricula=98745, nombre='Agostina', apellido='Ducret'}, Odontologo{id=2, nroMatricula=11745, nombre='Damian', apellido='Perez'}, Odontologo{id=3, nroMatricula=2547, nombre='Juana', apellido='Viale'}]
+[2023-10-26 22:38:38] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Datos Odontologo:-id:3, -nroMatricula:2547, -nombre:'Juana', -apellido:'Viale
+[2023-10-26 22:38:38] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Datos Odontologo:-id:1, -nroMatricula:98745, -nombre:'Agostina', -apellido:'Ducret, Datos Odontologo:-id:2, -nroMatricula:11745, -nombre:'Damian', -apellido:'Perez, Datos Odontologo:-id:3, -nroMatricula:2547, -nombre:'Juana', -apellido:'Viale]
+[2023-10-26 22:39:42] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Datos Odontologo:'-id:3, -nroMatricula:2547, -nombre:'Juana', -apellido:'Viale
+[2023-10-26 22:39:42] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Datos Odontologo:'-id:1, -nroMatricula:98745, -nombre:'Agostina', -apellido:'Ducret, Datos Odontologo:'-id:2, -nroMatricula:11745, -nombre:'Damian', -apellido:'Perez, Datos Odontologo:'-id:3, -nroMatricula:2547, -nombre:'Juana', -apellido:'Viale]
+[2023-10-26 22:41:20] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Datos Odontologo:- Id:3, -Nro de Matricula:2547, -Nombre:Juana, -Apellido:Viale
+[2023-10-26 22:41:20] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Datos Odontologo:- Id:1, -Nro de Matricula:98745, -Nombre:Agostina, -Apellido:Ducret, Datos Odontologo:- Id:2, -Nro de Matricula:11745, -Nombre:Damian, -Apellido:Perez, Datos Odontologo:- Id:3, -Nro de Matricula:2547, -Nombre:Juana, -Apellido:Viale]
+[2023-10-26 22:43:08] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Datos Odontologo:, Id:3, Nro de Matricula:2547, Nombre:Juana, Apellido:Viale
+[2023-10-26 22:43:08] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Datos Odontologo:, Id:1, Nro de Matricula:98745, Nombre:Agostina, Apellido:Ducret, Datos Odontologo:, Id:2, Nro de Matricula:11745, Nombre:Damian, Apellido:Perez, Datos Odontologo:, Id:3, Nro de Matricula:2547, Nombre:Juana, Apellido:Viale]
+[2023-10-26 22:44:09] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: , Id:3, Nro de Matricula:2547, Nombre:Juana, Apellido:Viale
+[2023-10-26 22:44:09] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [, Id:1, Nro de Matricula:98745, Nombre:Agostina, Apellido:Ducret, , Id:2, Nro de Matricula:11745, Nombre:Damian, Apellido:Perez, , Id:3, Nro de Matricula:2547, Nombre:Juana, Apellido:Viale]
+[2023-10-26 22:47:36] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: , Id:3, Nro de Matricula:2547, Nombre:Juana, Apellido:Viale
+[2023-10-26 22:47:36] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [, Id:1, Nro de Matricula:98745, Nombre:Agostina, Apellido:Ducret, , Id:2, Nro de Matricula:11745, Nombre:Damian, Apellido:Perez, , Id:3, Nro de Matricula:2547, Nombre:Juana, Apellido:Viale]
